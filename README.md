@@ -13,7 +13,7 @@
         - removeBooking(Ticket ticket): Removes a ticket from active bookings.
         - getActiveBookingsCount(): Returns the count of active bookings.
 - Justification:
-  -     The SessionManager ensures a consistent global view of active bookings across the application using the Singleton pattern.
+  - The SessionManager ensures a consistent global view of active bookings across the application using the Singleton pattern.
 
 ---
 
