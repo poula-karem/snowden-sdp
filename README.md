@@ -25,7 +25,7 @@
         - bookTicket(User user, Movie movie, Theater theater, String showtime)- Books a ticket and tracks it via SessionManager.
         - cancelTicket(String bookingId): Cancels a ticket and updates SessionManager.
 - Justification:
-  -     A Singleton pattern ensures centralized booking management. It prevents conflicts and duplication when interacting with bookings from multiple parts of the application.
+  - A Singleton pattern ensures centralized booking management. It prevents conflicts and duplication when interacting with bookings from multiple parts of the application.
 
 ---
 
@@ -36,7 +36,7 @@
         - createMovie(String genre, String title, double price): Returns an appropriate subclass of Movie (e.g., ActionMovie, ComedyMovie).
 
 - Justification:
-  -     The Factory Method pattern abstracts the creation of movies, allowing easy addition of new genres without modifying existing code.
+  - The Factory Method pattern abstracts the creation of movies, allowing easy addition of new genres without modifying existing code.
 
 ---
 
@@ -47,7 +47,7 @@
         - createTheater(String type, String name, int capacity): Returns an appropriate subclass of Theater (e.g., IMAXTheater, CinemaHall).
  
 - Justification:
-    -     Similar to MovieFactory, the Factory Method pattern simplifies the creation of theaters and supports extensibility.
+    - Similar to MovieFactory, the Factory Method pattern simplifies the creation of theaters and supports extensibility.
 
 ---
 
@@ -58,7 +58,7 @@
         - capacity: The seating capacity of the theater.
 
 - Justification:
-    -     Polymorphism allows various theater types (e.g., IMAXTheater, CinemaHall) to share common behavior, with room for type-specific features.
+    - Polymorphism allows various theater types (e.g., IMAXTheater, CinemaHall) to share common behavior, with room for type-specific features.
 
 ---
 
@@ -69,7 +69,7 @@
         - price: Ticket price for the movie.
 
 - Justification:
-  -     Polymorphism supports various movie genres (ActionMovie, ComedyMovie, etc.) while maintaining a shared interface for interaction.
+  - Polymorphism supports various movie genres (ActionMovie, ComedyMovie, etc.) while maintaining a shared interface for interaction.
 
 ---
 
@@ -83,7 +83,7 @@
         - showtime: The time of the show.
 
 - Justification:
-  -     The Ticket class centralizes booking information, making it easy to manage and retrieve details.
+  - The Ticket class centralizes booking information, making it easy to manage and retrieve details.
 
 ---
 
@@ -94,7 +94,7 @@
         - email: The email of the user.
 
 - Justification:
-  -     Encapsulates user data, supporting potential user-specific extensions (e.g., loyalty points).
+  - Encapsulates user data, supporting potential user-specific extensions (e.g., loyalty points).
 
 ---
 
