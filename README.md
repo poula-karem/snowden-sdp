@@ -134,12 +134,12 @@
 ---
 
 ### Project members:
- |           Name           |  ID    |
- | -------------------------|--------|
- | Ahmed Mohamed Abdelmohsen| 2100409|
- | Poula Karem Farag        | 2101445|
- | Belal Saeid Ali          | 2100569|
- | Raghda El-Sayed          | 2101450|
- | Shams Ayman              | 2101624|
- | Mohamed Ashraf El-Sayed  | 2101169|
- | Eric George              | 2100635|
+ |       Name      |  ID    |
+ | ----------------|--------|
+ | Ahmed Mohamed   | 2100409|
+ | Belal Saeid     | 2100569|
+ | Eric George     | 2100635|
+ | Mohamed Ashraf  | 2101169|
+ | Poula Karem     | 2101445|
+ | Raghda El-Sayed | 2101450|
+ | Shams Ayman     | 2101624|
